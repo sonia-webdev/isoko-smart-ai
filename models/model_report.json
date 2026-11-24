@@ -46,7 +46,7 @@
       "series": 216,
       "mean_MAE": 50.2,
       "median_MAE": 41.7,
-      "share_won_%": 80.6
+      "share_won_%": 80.1
     },
     {
       "model": "4-week average",
@@ -60,7 +60,7 @@
       "series": 216,
       "mean_MAE": 66.2,
       "median_MAE": 58.3,
-      "share_won_%": 13.4
+      "share_won_%": 13.9
     },
     {
       "model": "Random Forest",
