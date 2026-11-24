@@ -1,0 +1,74 @@
+{
+  "key": "6613|2026-11-16",
+  "rows": 6613,
+  "ok": true,
+  "reason": "The trained model beats the best simple rule by only 4.1% (needs 10%), so it is NOT used for advice. More weeks of regular reports are needed.",
+  "gate_pass": false,
+  "n_train": 1410,
+  "n_test": 477,
+  "gain_pct": 4.1,
+  "gate_needed_pct": 10.0,
+  "table": [
+    {
+      "model": "Last known price at that market",
+      "mean_error_RWF": 81.8,
+      "kind": "simple rule",
+      "better_than_best_rule_%": -0.6
+    },
+    {
+      "model": "Other markets' average that week",
+      "mean_error_RWF": 106.7,
+      "kind": "simple rule",
+      "better_than_best_rule_%": -31.2
+    },
+    {
+      "model": "Last price moved with the other markets",
+      "mean_error_RWF": 81.3,
+      "kind": "simple rule",
+      "better_than_best_rule_%": 0.0
+    },
+    {
+      "model": "Random forest (trained)",
+      "mean_error_RWF": 78.0,
+      "kind": "trained",
+      "better_than_best_rule_%": 4.1
+    },
+    {
+      "model": "Gradient boosting (trained)",
+      "mean_error_RWF": 80.1,
+      "kind": "trained",
+      "better_than_best_rule_%": 1.5
+    }
+  ],
+  "backtest": [
+    {
+      "model": "Last price",
+      "series": 216,
+      "mean_MAE": 50.2,
+      "median_MAE": 41.7,
+      "share_won_%": 80.6
+    },
+    {
+      "model": "4-week average",
+      "series": 216,
+      "mean_MAE": 92.5,
+      "median_MAE": 68.8,
+      "share_won_%": 2.3
+    },
+    {
+      "model": "4-point trend line",
+      "series": 216,
+      "mean_MAE": 66.2,
+      "median_MAE": 58.3,
+      "share_won_%": 13.4
+    },
+    {
+      "model": "Random Forest",
+      "series": 216,
+      "mean_MAE": 75.8,
+      "median_MAE": 61.2,
+      "share_won_%": 3.7
+    }
+  ],
+  "backtest_series": 216
+}

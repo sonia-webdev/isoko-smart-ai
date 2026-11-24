@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+<title>Isoko Smart AI</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#0E2A1F">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: { bg: "var(--bg)", surface: "var(--surface)", ink: "var(--ink)", muted: "var(--muted)", line: "var(--line)",
+        leaf: "var(--leaf)", leafsoft: "var(--leaf-soft)", sun: "var(--sun)", sunsoft: "var(--sun-soft)",
+        sky: "var(--sky)", skysoft: "var(--sky-soft)", bad: "var(--bad)", badsoft: "var(--bad-soft)", hero: "var(--hero)" },
+      fontFamily: { display: ["'Bricolage Grotesque'", "Inter", "system-ui", "sans-serif"], sans: ["Inter", "system-ui", "sans-serif"] }
+    } }
+  };
+</script>
+<style>
+  /* Palette: the colours of the Rwandan flag, used quietly. Forest green leads, sun yellow marks the answer, sky blue marks government. */
+  :root { --bg:#F2F6F1; --surface:#FFFFFF; --ink:#10261C; --muted:#5A6B61; --line:#DAE3DB; --leaf:#1E7A4C; --leaf-soft:#E1F1E7;
+    --sun:#F2C200; --sun-soft:#FFF3BF; --sky:#0B78B0; --sky-soft:#DDEEF8; --bad:#B3261E; --bad-soft:#FBE5E2; --hero:#0E2A1F; --bar:#8FBFA3; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0B1612; --surface:#12231B; --ink:#E8F0EA; --muted:#9DB0A4; --line:#25392E;
+    --leaf:#4CC17F; --leaf-soft:#173325; --sun:#F5CB2B; --sun-soft:#3A3210; --sky:#52B3E6; --sky-soft:#12303F; --bad:#FF8A80; --bad-soft:#3B1A18; --hero:#071410; --bar:#3E7A5A; color-scheme: dark; } }
+  :root[data-theme="dark"] { --bg:#0B1612; --surface:#12231B; --ink:#E8F0EA; --muted:#9DB0A4; --line:#25392E;
+    --leaf:#4CC17F; --leaf-soft:#173325; --sun:#F5CB2B; --sun-soft:#3A3210; --sky:#52B3E6; --sky-soft:#12303F; --bad:#FF8A80; --bad-soft:#3B1A18; --hero:#071410; --bar:#3E7A5A; color-scheme: dark; }
+  body { background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; font-size: 16px; -webkit-font-smoothing: antialiased; }
+  body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+  .gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  button { cursor: pointer; }
+  button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--leaf); outline-offset: 2px; }
+  .route { animation: dash 14s linear infinite; }
+  @keyframes dash { to { stroke-dashoffset: -220; } }
+  @media (prefers-reduced-motion: reduce) { .route { animation: none; } }
+</style>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.24.7/babel.min.js"></script>
+<script type="text/babel" data-presets="react">
+/*APP*/
+</script>

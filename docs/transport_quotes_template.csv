@@ -1,0 +1,4 @@
+vehicle,capacity_kg,distance_km,round_trip,total_quote_rwf,route,date,source
+Pickup / small van,1000,90,yes,,Nyabugogo to Musanze,,name of transporter or cooperative
+Motorbike,100,20,yes,,,,
+Truck,5000,130,yes,,,,

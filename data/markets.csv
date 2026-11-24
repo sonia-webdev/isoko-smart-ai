@@ -1,0 +1,52 @@
+location,lat,lon,coord_source,district
+Nyabugogo,-1.9392,30.0445,manual,
+Kimisagara,-1.951,30.05,manual,
+Kibuye,-2.0653,29.3494,manual,
+Musanze,-1.4998,29.6349,manual,
+Nyagatare,-1.2975,30.327,manual,
+Kamembe,-2.4666,28.9072,manual,
+Rubavu,-1.677,29.26,manual,
+Huye,-2.5967,29.7394,manual,
+Rwamagana,-1.9487,30.4347,manual,
+Kibungo,-2.1565,30.543,manual,
+Muhanga,-2.085,29.756,manual,
+Nyanza,-2.352,29.749,manual,
+Gicumbi,-1.576,30.067,manual,
+Kayonza,-1.875,30.65,manual,
+Gasarenda,-2.51,29.48,"WFP file, district-level (Nyamagabe), approximate",
+Nyakarambi,-2.27,30.68,"WFP file, district-level (Kirehe), approximate",
+Birambo,-1.92,29.45,"WFP file, district-level (Rutsiro), approximate",
+Base,-1.696,29.969,approximate: average of WFP markets in the district (rulindo),rulindo
+Bugarama,-2.505,28.928,approximate: average of WFP markets in the district (rusizi),rusizi
+Buhanda,-2.23,29.66,"WFP market list, district agrees (Ruhango); district-level precision",ruhango
+Bushenge,-2.43,29.0,"WFP market list, district agrees (Nyamasheke); district-level precision",nyamasheke
+Byumba,-1.58,30.06,"WFP market list, district agrees (Gicumbi); district-level precision",gicumbi
+Congonil,-1.96,29.38,"WFP market list, district agrees (Rutsiro); district-level precision",rutsiro
+Gacurabwenge,-1.994,29.889,approximate: average of WFP markets in the district (kamonyi),kamonyi
+Gahanga,-1.98,30.11,"WFP market list, district agrees (Kicukiro); district-level precision",kicukiro
+Gahoromani,-1.975,30.092,approximate: average of WFP markets in the district (kicukiro),kicukiro
+Gatore,-2.28,30.59,"WFP market list, district agrees (Kirehe); district-level precision",kirehe
+Gisenyi,-1.7,29.26,WFP market list (WFP gives no district; Esoko district: Rubavu); district-level precision,rubavu
+Kabarondo,-2.02,30.55,"WFP market list, district agrees (Kayonza); district-level precision",kayonza
+Karambi,-2.51,29.61,"WFP market list, district agrees (Huye); district-level precision",huye
+Karenge,-1.944,30.376,approximate: average of WFP markets in the district (rwamagana),rwamagana
+Kayenzi,-1.9,29.85,"WFP market list, district agrees (Kamonyi); district-level precision",kamonyi
+Kibirizi,-2.106,29.384,approximate: average of WFP markets in the district (karongi),karongi
+Kicukiro-Center,-1.98,30.11,"WFP market list, district agrees (Kicukiro); district-level precision",kicukiro
+Kimironko,-1.921,30.095,approximate: average of WFP markets in the district (gasabo),gasabo
+Kirambo,-1.429,29.78,approximate: average of WFP markets in the district (burera),burera
+Mahoko,-1.7,29.33,"WFP market list, district agrees (Rubavu); district-level precision",rubavu
+Matimba,-1.11,30.43,"WFP market list, district agrees (Nyagatare); district-level precision",nyagatare
+Mubyangabo,-1.514,29.608,approximate: average of WFP markets in the district (musanze),musanze
+Muhondo,-1.671,29.786,approximate: average of WFP markets in the district (gakenke),gakenke
+Mukamira,-1.61,29.51,"WFP market list, district agrees (Nyabihu); district-level precision",nyabihu
+Mulindi,-1.95,30.06,"WFP market list (WFP: Nyarugenge, Esoko: Gasabo, both in Kigali); Kigali-level precision",gasabo
+Ndago,-2.674,29.526,approximate: average of WFP markets in the district (nyaruguru),nyaruguru
+Nkora,-1.913,29.385,approximate: average of WFP markets in the district (rutsiro),rutsiro
+Nyagahinga,-1.37,29.72,"WFP market list, district agrees (Burera); district-level precision",burera
+Nyamata,-2.21,30.24,"WFP market list, district agrees (Bugesera); district-level precision",bugesera
+Ruhango,-2.19,29.755,approximate: average of WFP markets in the district (ruhango),ruhango
+Ruhuha,-2.15,30.09,"WFP market list, district agrees (Bugesera); district-level precision",bugesera
+Rukomo,-1.341,30.29,approximate: average of WFP markets in the district (nyagatare),nyagatare
+Rushashi,-1.74,29.87,"WFP market list, district agrees (Gakenke); district-level precision",gakenke
+Ziniya,-1.97,30.1,"WFP market list, district agrees (Kicukiro); district-level precision",kicukiro

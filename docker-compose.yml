@@ -1,0 +1,30 @@
+# Isoko Smart AI: the app plus automatic HTTPS (Caddy).
+#   1. Put your domain in a file called .env:        DOMAIN=isoko.example.rw
+#                                                    ISOKO_ADMIN_TOKEN=<a long random secret>
+#   2. docker compose up -d
+services:
+  isoko:
+    build: .
+    restart: unless-stopped
+    environment:
+      - ISOKO_ADMIN_TOKEN=${ISOKO_ADMIN_TOKEN}
+      - ISOKO_LOG_MESSAGES=${ISOKO_LOG_MESSAGES:-0}
+      - AT_USERNAME=${AT_USERNAME:-}
+      - AT_API_KEY=${AT_API_KEY:-}
+    volumes:
+      - isoko_data:/app/data      # prices, feedback, saved web data (kept when you update the app)
+      - isoko_models:/app/models
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      - DOMAIN=${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on: [isoko]
+volumes:
+  isoko_data:
+  isoko_models:
+  caddy_data:

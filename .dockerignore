@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.bak
+tests
+.git
+data/feedback.jsonl
+data/messages_log.csv
+data/web_data.json

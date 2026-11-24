@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.bak
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+data/feedback.jsonl
+data/messages_log.csv
+backtest_results.csv
+backtest_summary.csv
+# The real price file may be covered by the data owner's terms. If your repository is PUBLIC, think before
+# you commit it. Uncomment the next line to keep it out of git (the app then shows the demo data):
+# data/isoko_crop_data.csv
